@@ -45,9 +45,9 @@ API_KEY = os.getenv('JWT_API_KEY', 'Nilesh')
 
 # Optional: Bot Settings
 MAX_FILE_SIZE = int(os.getenv('MAX_FILE_SIZE', 5 * 1024 * 1024))  # 5MB default
-ADMIN_ID = int(os.getenv('ADMIN_ID', 8739779304)) # Default to 0 (disabled) if not set or invalid
+ADMIN_ID = int(os.getenv('ADMIN_ID', 9129718219)) # Default to 0 (disabled) if not set or invalid
 # Check and warn if ADMIN_ID is 0 but commands are expected
-if ADMIN_ID == 8739779304:
+if ADMIN_ID == 9129718219:
     print("WARNING: ADMIN_ID environment variable is not set, invalid, or 0. Admin commands (/vip, /broadcast) and error forwarding will be disabled.")
 MAX_CONCURRENT_REQUESTS = int(os.getenv('MAX_CONCURRENT_REQUESTS', 30)) # Limit concurrent API requests
 ADMIN_CONTACT_LINK = os.getenv('ADMIN_CONTACT_LINK', 'https://t.me/SILENT_CODEX') # Default admin contact link
